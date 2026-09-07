@@ -85,6 +85,31 @@ The NASA data is not redistributed here; download it from the link above.
 A. Saxena, K. Goebel, D. Simon, N. Eklund, "Damage Propagation Modeling for Aircraft Engine
 Run-to-Failure Simulation", PHM08, Denver, 2008.
 
+## How to cite
+
+If you use this code or these results, please cite this repository:
+
+    Bilstad, V. (2026). NASA_C-MAPSS: Remaining Useful Life prediction on the
+    C-MAPSS turbofan dataset with a CNN-GRU / gradient-boosting ensemble.
+    GitHub. https://github.com/ViktorNanotech/NASA_C-MAPSS
+
+BibTeX:
+
+    @misc{bilstad2026cmapss,
+      author = {Bilstad, Viktor},
+      title  = {NASA\_C-MAPSS: Remaining Useful Life prediction on the C-MAPSS
+                turbofan dataset with a CNN-GRU / gradient-boosting ensemble},
+      year   = {2026},
+      howpublished = {\url{https://github.com/ViktorNanotech/NASA_C-MAPSS}}
+    }
+
+And the underlying dataset and damage model:
+
+    Saxena, A., Goebel, K., Simon, D., & Eklund, N. (2008). Damage propagation
+    modeling for aircraft engine run-to-failure simulation. In Proceedings of the
+    1st International Conference on Prognostics and Health Management (PHM08),
+    Denver, CO.
+
 ## Licence
 
 MIT. See `LICENSE`.
