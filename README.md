@@ -2,7 +2,7 @@
 
 A self-contained pipeline that predicts how many flight cycles a jet engine has left before
 failure, from its sensor history. Built in one session with Claude Fable 5.1; see the
-accompanying write-up (link) for the story.
+accompanying write-up (https://x.com/SnekSnekesen/status/2096930136213873142) for the story.
 
 **Results (test-set RMSE in cycles, ground truth clipped at 125, lower is better)**
 
