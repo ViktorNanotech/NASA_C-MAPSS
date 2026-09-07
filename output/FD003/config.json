@@ -1,0 +1,28 @@
+{
+ "DATA_DIR": ".",
+ "OUTPUT_DIR": "output",
+ "DATASETS": [
+  "FD001",
+  "FD002",
+  "FD003",
+  "FD004"
+ ],
+ "RUL_CAP": 125,
+ "WINDOW": 40,
+ "N_REGIMES": 6,
+ "USE_CYCLE": true,
+ "CYCLE_SCALE": 250.0,
+ "BATCH_SIZE": 256,
+ "EPOCHS": 60,
+ "LR": 0.001,
+ "WEIGHT_DECAY": 0.001,
+ "SEEDS": 5,
+ "VAL_FRAC": 0.15,
+ "PATIENCE": 10,
+ "CNN_CH": 64,
+ "GRU_H": 64,
+ "DROPOUT": 0.5,
+ "NOISE_STD": 0.05,
+ "NUM_WORKERS": 0,
+ "GB_WEIGHT": 0.5
+}

@@ -1,0 +1,12 @@
+# NASA data - download separately, not redistributed
+data/
+*.txt
+!requirements.txt
+!output/log.txt
+*.zip
+*.pdf
+
+# python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
