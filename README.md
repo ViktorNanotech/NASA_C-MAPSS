@@ -9,7 +9,13 @@ accompanying write-up (link) for the story.
 | | FD001 | FD002 | FD003 | FD004 |
 |---|---|---|---|---|
 | This repo | **11.87** | **11.89** | **10.08** | **11.86** |
-| Li et al. 2018 (CNN) | 12.6 | 22.4 | 12.6 | 23.3 |
+| Best published, 2021–2025 (comparable protocol) | ~11.0 | ~14.0 | ~10.7 | ~14.3 |
+| Classic CNN baseline (Li et al., 2018) | 12.6 | 22.4 | 12.6 | 23.3 |
+
+On the two multi-condition subsets (FD002, FD004) this beats the best comparable published
+results by roughly 15 %; on FD001 and FD003 it is in line with the state of the art. The
+"best published" row is taken from the comparison table in Chowdhury et al. (2026); see
+"Caveats" for what that does and doesn't mean.
 
 Full numbers, including the PHM08 asymmetric score, are in `output/summary.csv`.
 Every figure is reproduced by an independent script (`crosscheck.py`) that shares no code
@@ -81,6 +87,13 @@ The NASA data is not redistributed here; download it from the link above.
 - **Single run.** Report mean ± std over repeated runs before drawing fine distinctions.
 
 ## Reference
+
+X. Li, Q. Ding, J.-Q. Sun, "Remaining useful life estimation in prognostics using deep
+convolution neural networks", Reliability Engineering & System Safety 172 (2018) 1–11.
+https://doi.org/10.1016/j.ress.2017.11.021
+
+R. H. Chowdhury et al., "Bi-cLSTM: Residual-Corrected Bidirectional LSTM for Aero-Engine RUL
+Estimation", arXiv:2603.00745 (2026). Source of the 2021–2025 comparison table.
 
 A. Saxena, K. Goebel, D. Simon, N. Eklund, "Damage Propagation Modeling for Aircraft Engine
 Run-to-Failure Simulation", PHM08, Denver, 2008.
